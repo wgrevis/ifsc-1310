@@ -103,6 +103,9 @@ header.primary ul li a:active{
   display:flex;
   flex-direction:row;
   justify-content:space-evenly;
+  border-bottom:1.5px solid #c0c0c0;
+  padding:2.4rem 0;
+  border-top:1.5px solid #c0c0c0;
 }
 
 #content article.post{
@@ -116,6 +119,73 @@ header.primary ul li a:active{
 #content article.post:hover{
   box-shadow:0 8px 16px rgba(0,0,0,.3);
 }
+
+time.post-date, figcaption, footer.post-meta{
+  text-transform:uppercase; 
+  color:#c0c0c0;
+  font-size:.6rem;
+ }
+
+.post figure{
+  margin:0;
+}
+
+.post figure img{
+  border: 2px double #c0c0c0;
+  padding: 4px;
+  border-radius:4px;
+}
+
+.post a{
+  color:#3b638b;
+}
+
+.post a:hover, .post a:active {
+  text-decoration: none;
+}
+
+/* Attribute Selector */
+aside[role="complementary"]{
+  background-color:#172635;
+  color:#ffffff;
+  padding:1.4rem;
+}
+
+
+aside .container{
+  display:flex;
+  justify-content:space-between;
+  flex-direction:row;
+}
+
+aside article.widget {
+  width:45%;
+}
+
+aside article.widget a:last-of-type { /* also a first-of-type */
+  color: white;
+  display:block;
+  margin-top:20px;
+  text-align:right;
+}
+
+aside article footer {
+  display: none;
+}
+
+#colophon{
+  background-color:#3b638b;
+}
+
+#colophon h6{
+  padding: 20px;
+  margin: 0px;
+  color:white;
+  text-align: center;
+  font-size:9rem;
+  text-transform:uppercase;
+}
+
 
 /* ---------------Responsive Images----------------- */
 
