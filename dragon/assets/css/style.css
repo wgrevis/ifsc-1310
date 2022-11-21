@@ -43,8 +43,8 @@ html {
 .img-center {
     display: block;
     margin: 20px auto;
-    border: 1px solid black;
-    padding: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 22px;
 }
 
 /* ---- Responsive Images ----*/
@@ -61,10 +61,9 @@ body {
 header.primary {
     background-color: #102D61;
     text-align: center;
-    color: #ffffff;
+    color: #f2f2f2;
     text-shadow: 2px 2px #000000;
-    /* Shorhand T,R,B,L*/
-    padding: 6em 2em;
+    padding: 10em 10em;
     position: relative;
 }
   
@@ -88,7 +87,7 @@ header.primary h1 {
   
 header.primary h1 a {
     color: #ffffff;
-    background-image: url("https://github.com/wgrevis/ifsc-1310/blob/main/dragon/assets/imgs/SpaceX-Logo (1).png");
+    background-image: url("https://github.com/wgrevis/ifsc-1310/blob/main/dragon/assets/imgs/SpaceX-Logo%20(1).png?raw=true");
     display: block;
     width: 460px;
     height: 70px;
@@ -101,6 +100,7 @@ header.primary h1 a {
 header.primary h2 {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 2em;
+    text-shadow: 4px 4px #000;
     margin: 20px auto 40px;
     position: relative;
 }
@@ -147,13 +147,17 @@ h2 {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+li {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 section #content {
     padding: 4em 0;
 }
   
 section #content h2 {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 2.2em;
+    font-size: 6em;
     color: #33536b;
     text-align: center;
 }
@@ -175,9 +179,12 @@ table {
   
 td, th {
     border: 2px solid #2E4061;
+    font-family: 'Roboto Condensed', sans-serif;
     text-align: left;
     padding: 10px;
 }
+
+
   
 tr:nth-child(even) {
     background-color: #6C96E6;
@@ -195,8 +202,7 @@ section#articles .container {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    border-bottom: 1px solid #c0c0c0;
-    padding: 0 0 4em 0;
+    padding: 0 0 2em 0;
 }
   
 section#articles h2,
@@ -211,11 +217,12 @@ section#articles h2,
 section#articles h2 {
     color: #fff;
     text-shadow: 4px 4px #000;
+    font-family: 'Roboto Condensed', sans-serif;
 }
   
 #articles article.post {
     width: 30%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    box-shadow: 22px 22px 22px rgba(247, 247, 247, 0.4);
     padding: 10px;
     transition: 0.6s;
     font-size: 0.8rem;
@@ -225,12 +232,12 @@ section#articles h2 {
   
 #articles article.post h2 {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 1.5em;
+    font-size: 1em;
     text-shadow: none;
 }
   
 #articles article.post:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 8px 16px rgb(220, 218, 218);
 }
   
 #articles article time,
@@ -238,7 +245,7 @@ section#articles h2 {
 #articles article footer {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 0.8em;
-    color: #c0c0c0;
+    color: #000000;
     text-transform: uppercase;
 }
   
@@ -268,6 +275,14 @@ section#articles h2 {
     padding: 6em 0;
 }
 
+#slideshow h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2em;
+    text-shadow: 4px 4px rgb(220, 218, 218);
+    margin: 20px auto 40px;
+    position: relative;
+    color: #102D61
+}
 
   
 /* ------------- Aside --------------- */
