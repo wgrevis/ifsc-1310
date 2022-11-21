@@ -40,9 +40,9 @@ html {
 .img-center{
   display:block;
   margin:20px auto;
-  border:5px solid #3a3c3f;
+  border:20px solid #3a3c3f;
   padding: 5px;
-  border: radius 4px;
+  border: radius 10px;
 }
 
 /* ---------------Responsive images----------------- */
