@@ -89,11 +89,10 @@ header.primary h1 a {
     color: #ffffff;
     background-image: url("/dragon/assets/imgs/SpaceX-Logo.png");
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     display: block;
-    width: 650px;
-    height: 80px;
+    width: 800px;
+    height: 100px;
     margin: 0 auto;
     text-indent: 100%;
     white-space: nowrap;
